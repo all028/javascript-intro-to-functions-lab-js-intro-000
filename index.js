@@ -20,8 +20,8 @@ function sayHiToGrandma(strShout){
   var temp = strShout;
   if (strShout.toUpperCase() === strShout)
     return "YES INDEED!";
-    
-  
+
+
 
 
 }
