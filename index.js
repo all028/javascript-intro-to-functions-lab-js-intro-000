@@ -21,6 +21,8 @@ function sayHiToGrandma(strShout){
   if (strShout.toUpperCase() === strShout)
     return "YES INDEED!";
 
+  if (strShout.toLowerCase() === strShout)
+      return "I\'m";
 
 
 
