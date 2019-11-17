@@ -16,13 +16,12 @@ function logWhisper(strShout){
 }
 
 function sayHiToGrandma(strShout){
-  if (strShout.isLowerCase()){
-    return "I can\'t hear you";
-  }
 
-  if (strShout.isUpperCase()){
+  var temp = strShout;
+  if (strShout.toUpperCase() === strShout)
     return "YES INDEED!";
-  }
+    
+  
 
 
 }
